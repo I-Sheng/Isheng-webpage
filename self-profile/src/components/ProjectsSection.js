@@ -5,28 +5,36 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Film Manage System",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../images/photo1.jpg"),
+      "This project integrates the Django framework with the Yugabyte database to develop an efficient file management system.",
+    getImageSrc: () => require("../images/photo-p1.jpg"),
+    hyperlink: "https://github.com/I-Sheng/film-manage-system",
+    alt: "Photo by Obregonia D. Toretto: https://www.pexels.com/photo/black-and-white-production-scene-take-tool-918281/",
   },
   {
-    title: "React Infinite Scroll",
+    title: "Basketball Competition Dashboard",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "This project utilizes Vue.js for the frontend, Flask for the backend, and SQLite as the database to build an advanced basketball competition dashboard.",
+    getImageSrc: () => require("../images/photo-p2.jpg"),
+    hyperlink: "https://github.com/Basketball-Competition-Dashboard/Project",
+    alt: "Photo by TJ Dragotta on Unsplash",
   },
   {
-    title: "Photo Gallery",
+    title: "Luxury Jewelry Mangata and Gallo",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
+      "This is the project for Coursera's course \"HTML and CSS in depth's\". The goal is to design a frontend page for the jewelry store.",
+    getImageSrc: () => require("../images/photo-p3.jpg"),
+    hyperlink: "https://i-sheng.github.io/Luxury-Jewelry-Mangata-and-Gallo/",
+    alt: "Photo by  Anastasia  Shuraeva: https://www.pexels.com/photo/two-women-in-white-trying-on-golden-rings-and-necklaces-on-marble-table-5705481/",
   },
   {
-    title: "Event planner",
+    title: "Traveling Planner With LLM",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+      "This project is part of the College Student Research Scholarship program and is currently ongoing, with completion expected by February 2025.",
+    getImageSrc: () => require("../images/photo-p4.jpg"),
+    hyperlink: "https://github.com/I-Sheng/Traveling-Planner-With-LLM",
+    alt: "Photo by veerasak Piyawatanakul: https://www.pexels.com/photo/woman-holding-map-2415935/",
   },
 ];
 
@@ -53,6 +61,8 @@ const ProjectsSection = () => {
             title={project.title}
             description={project.description}
             imageSrc={project.getImageSrc()}
+            hyperlink={project.hyperlink}
+            alt={project.alt}
           />
         ))}
       </Box>
