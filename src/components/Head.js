@@ -7,17 +7,15 @@ function Head() {
         <meta name="auhtor" content="Isheng Lee" />
         <meta
           name="description"
-          content="Taste perfection at Little Lemon Restaurant! Discover delicious delights in every dish at our cozy spot in NY."
+          content="Welcome to Isheng's webpage, showcasing four projects that highlight my practical skills and expertise."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="language" content="english" />.
-        <meta property="og:title" content="Mangata and Gallo" />
+        <meta property="og:title" content="Isheng webpage" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content=".\images\website images.png" />
-        <meta property="og:url" content="localhost" />
         <meta
           property="og:description"
-          content="Taste perfection at Little Lemon Restaurant! Discover delicious delights in every dish at our cozy spot in NY."
+          content="Welcome to Isheng's webpage, showcasing four projects that highlight my practical skills and expertise."
         />
       </SEO>
     </div>
@@ -25,3 +23,4 @@ function Head() {
 }
 
 export default Head;
+
