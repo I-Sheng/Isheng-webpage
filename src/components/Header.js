@@ -106,9 +106,9 @@ const Header = () => {
               <a onClick={handleClick("projects")} value="project">
                 Projects
               </a>
-              <a onClick={handleClick("contactme")} value="contactme">
+              {/* <a onClick={handleClick("contactme")} value="contactme">
                 Contact me
-              </a>
+              </a> */}
             </HStack>
           </nav>
         </HStack>

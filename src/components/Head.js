@@ -3,7 +3,7 @@ import SEO from "./SEO";
 function Head() {
   return (
     <div>
-      <SEO title="Isheng" description="home page of the site" url="/">
+      <SEO title="Isheng webpage" description="home page of the site" url="/">
         <meta name="auhtor" content="Isheng Lee" />
         <meta
           name="description"
