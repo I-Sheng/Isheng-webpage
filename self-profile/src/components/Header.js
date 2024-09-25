@@ -6,24 +6,25 @@ import {
   faLinkedin,
   faMedium,
   faStackOverflow,
+  faGitlab,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
 
 const socials = [
   {
     icon: faEnvelope,
-    url: "mailto: hello@example.com",
+    url: "mailto: 110703011@g.nccu.edu.tw",
   },
   {
     icon: faGithub,
-    url: "https://github.com",
+    url: "https://github.com/I-Sheng?tab=repositories",
   },
   {
     icon: faLinkedin,
-    url: "https://www.linkedin.com",
+    url: "https://www.linkedin.com/in/%E9%80%B8%E7%9B%9B-%E6%9D%8E-5673a1261/",
   },
   {
-    icon: faMedium,
+    icon: faGitlab,
     url: "https://medium.com",
   },
   {

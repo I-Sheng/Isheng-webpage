@@ -11,26 +11,24 @@ const Card = ({ title, description, imageSrc }) => {
   return (
     <VStack
       align="start"
-      shouldWrapChildren="true"
+      shouldWrapChildren={true}
       spacing="0.5rem"
-      style={{
-        backgroundColor: "white",
-        borderRadius: "0.5rem",
-        color: "black",
-      }}
+      bg="white"
+      borderRadius="0.5rem"
+      color="black"
     >
-      <Image
-        src={imageSrc}
-        alt="A project picture"
-        style={{ borderRadius: "0.5rem" }}
-      />
-      <Heading size="md" style={{ marginLeft: "0.5rem", fontWeight: "bolder" }}>
+      <Image src={imageSrc} alt="A project picture" borderRadius="0.5rem" />
+      <Heading size="md" ml="0.5rem" fontWeight="bolder">
         {title}
       </Heading>
-      <Text style={{ marginLeft: "0.5rem" }}>{description}</Text>
-      <HStack style={{ marginBottom: "1rem", marginLeft: "0.5rem" }}>
-        <Heading size="sm">see more</Heading>
-        <FontAwesomeIcon icon={faArrowRight} size="1x" />
+      <Text ml="0.5rem">{description}</Text>
+      <HStack mb="1rem" ml="0.5rem">
+        <Heading size="sm">See more</Heading>
+        <FontAwesomeIcon
+          icon={faArrowRight}
+          size="1x"
+          aria-label="Arrow right icon"
+        />
       </HStack>
     </VStack>
   );
