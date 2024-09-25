@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Isheng-webpage/static/css/main.4395f1e8.css",
+    "main.js": "/Isheng-webpage/static/js/main.15876019.js",
+    "static/js/111.944ce873.chunk.js": "/Isheng-webpage/static/js/111.944ce873.chunk.js",
+    "static/media/photo-p3.jpg": "/Isheng-webpage/static/media/photo-p3.5d8d1038bcd0f94dabe1.jpg",
+    "static/media/photo-p4.jpg": "/Isheng-webpage/static/media/photo-p4.0b7fbd6a82424a98c210.jpg",
+    "static/media/photo-p2.jpg": "/Isheng-webpage/static/media/photo-p2.64db789ec4feeb5e08e5.jpg",
+    "static/media/photo-p1.jpg": "/Isheng-webpage/static/media/photo-p1.88d243f54c86f84fefe4.jpg",
+    "static/media/isheng.jpg": "/Isheng-webpage/static/media/isheng.199bd51e55ec25544262.jpg",
+    "index.html": "/Isheng-webpage/index.html",
+    "main.4395f1e8.css.map": "/Isheng-webpage/static/css/main.4395f1e8.css.map",
+    "main.15876019.js.map": "/Isheng-webpage/static/js/main.15876019.js.map",
+    "111.944ce873.chunk.js.map": "/Isheng-webpage/static/js/111.944ce873.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4395f1e8.css",
+    "static/js/main.15876019.js"
+  ]
+}
